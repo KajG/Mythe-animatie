@@ -16,8 +16,8 @@ public class PlayAnimation : MonoBehaviour {
 		if (inc <= 0) {
 			inc = 0;
 		}
-		if(inc >= 5.650f){
-			inc = 5.650f;
+		if(inc >= 1.292f){
+			inc = 1.292f;
 		}
 		if (Input.GetKey (KeyCode.Space)) {
 			inc += speed / 100;
